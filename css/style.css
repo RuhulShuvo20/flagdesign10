@@ -1,0 +1,573 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e6e1e1;
+}
+
+/*===================================
+     bangladeshi flag
+====================================*/
+.bangladesh {
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+.bd_green {
+    width: 700px;
+    height: 350px;
+    background-color: #006a4e;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bd_red {
+    width: 200px;
+    height: 200px;
+    background-color: #f42a40;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bd_red img {
+    width: 100px;
+    height: 130px;
+}
+
+
+.bangladesh h2 {
+    padding: 10px 20px;
+    background: #f42a40;
+    display: inline-block;
+    color: #fff;
+    margin: 20px 0;
+    border-radius: 5px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    transition: all 0.3s ease-in;
+}
+
+.bangladesh h2:hover {
+    background-color: #006a4e;
+    cursor: pointer;
+}
+
+
+/*===================================
+     canada flag
+====================================*/
+
+.canada {
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+.can_main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.can_red {
+    width: 150px;
+    height: 350px;
+    background-color: #fe0002;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color_white {
+    width: 400px;
+    height: 350px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.color_white img {
+    width: 250px;
+    height: 250px;
+}
+
+.canada h2 {
+    padding: 10px 20px;
+    background-color: #a70506;
+    display: inline-block;
+    color: #fff;
+    margin: 20px 0;
+    border-radius: 5px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    transition: all 0.3s ease-in;
+}
+
+.canada h2:hover {
+    background-color: #fe0002;
+    cursor: pointer;
+}
+
+/*===================================
+     argentina flag
+====================================*/
+.argentina {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.arg_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.arg_blue {
+    width: 700px;
+    height: 100px;
+    background-color: #74acdf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.arg_white {
+    width: 700px;
+    height: 150px;
+    background-color: #fff;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arg_white img {
+    width: 120px;
+    height: 120px;
+}
+
+.argentina h2 {
+    padding: 10px 20px;
+    background-color: #f5b50d;
+    display: inline-block;
+    color: #fff;
+    margin: 20px 0;
+    border-radius: 5px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    transition: all 0.3s ease-in;
+}
+
+.argentina h2:hover {
+    background-color: #74acdf;
+    cursor: pointer;
+}
+
+/*===================================
+     ireland flag
+====================================*/
+.ireland {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.ire_main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.ire_left {
+    width: 233px;
+    height: 300px;
+    background-color: #009b48;
+}
+
+.ire_white {
+    width: 234px;
+    height: 300px;
+    background-color: #fff;
+}
+
+.ire_right {
+    width: 233px;
+    height: 300px;
+    background-color: #ff7802;
+}
+
+.ireland h2 {
+    padding: 10px 20px;
+    background-color: #009b48;
+    display: inline-block;
+    color: #fff;
+    margin: 20px 0;
+    border-radius: 5px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    transition: all 0.3s ease-in;
+}
+
+.ireland h2:hover {
+    background-color: #ff7802;
+    cursor: pointer;
+}
+
+/*===================================
+     ireland flag
+====================================*/
+.mexico {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.mex_main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.mex_left {
+    width: 240px;
+    height: 300px;
+    background-color: #006847;
+}
+
+.mex_white {
+    width: 220px;
+    height: 300px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mex_white img {
+    width: 150px;
+    height: auto;
+}
+
+.mex_right {
+    width: 240px;
+    height: 300px;
+    background-color: #ce1127;
+}
+
+.mexico h2 {
+    padding: 10px 20px;
+    background-color: #006847;
+    display: inline-block;
+    color: #fff;
+    margin: 20px 0;
+    border-radius: 5px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    transition: all 0.3s ease-in;
+}
+
+.mexico h2:hover {
+    background-color: #ce1127;
+    cursor: pointer;
+}
+
+/*===================================
+     ireland flag
+====================================*/
+.germany {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.ger_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ger_black {
+    width: 700px;
+    height: 120px;
+    background-color: #010101;
+}
+
+.ger_red {
+    width: 700px;
+    height: 120px;
+    background-color: #dc0000;
+}
+
+.ger_yellow {
+    width: 700px;
+    height: 120px;
+    background-color: #fece00;
+}
+
+.germany h2 {
+    padding: 10px 20px;
+    background-color: #dc0000;
+    display: inline-block;
+    color: #fff;
+    margin: 20px 0;
+    border-radius: 5px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    transition: all 0.3s ease-in;
+}
+
+.germany h2:hover {
+    background-color: #fece00;
+    color: #010101;
+    cursor: pointer;
+}
+
+/*===================================
+     spain flag
+====================================*/
+.spain {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.spa_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.spa_red {
+    width: 700px;
+    height: 90px;
+    background-color: #c60b1e;
+}
+
+.spa_yellow {
+    width: 700px;
+    height: 160px;
+    background-color: #fec400;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+}
+
+.spa_yellow img {
+    width: 120px;
+    height: auto;
+    position: absolute;
+    left: 22%;
+    transform: translateX(-22%);
+}
+
+.spain h2 {
+    padding: 10px 20px;
+    background-color: #c60b1e;
+    display: inline-block;
+    color: #fff;
+    margin: 20px 0;
+    border-radius: 5px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    transition: all 0.3s ease-in;
+}
+
+.spain h2:hover {
+    background-color: #fec400;
+    color: #010101;
+    cursor: pointer;
+}
+
+/*===================================
+     uae flag
+====================================*/
+.uae {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.uae_main {
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.uae_left {
+    width: 200px;
+    height: 360px;
+    background-color: #fe0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uae_right {
+    width: 500px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.uae_top {
+    width: 500px;
+    height: 120px;
+    background-color: #00732e;
+}
+
+.uae_middle {
+    width: 500px;
+    height: 120px;
+    background-color: #fff;
+}
+
+.uae_bottom {
+    width: 500px;
+    height: 120px;
+    background-color: #000;
+}
+
+.uae h2 {
+    padding: 10px 20px;
+    background-color: #fe0000;
+    display: inline-block;
+    color: #fff;
+    margin: 20px 0;
+    border-radius: 5px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    transition: all 0.3s ease-in;
+}
+
+.uae h2:hover {
+    background-color: #00732e;
+    cursor: pointer;
+}
+
+/*===================================
+     switzerland flag
+====================================*/
+.switzerland {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.swi_main {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.swi_main {
+    width: 700px;
+    height: 360px;
+    background-color: #fe0002;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swi_main img {
+    width: 250px;
+    height: auto;
+}
+
+.switzerland h2 {
+    padding: 10px 20px;
+    background-color: #000;
+    display: inline-block;
+    color: #fff;
+    margin: 20px 0;
+    border-radius: 5px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    transition: all 0.3s ease-in;
+}
+
+.switzerland h2:hover {
+    background-color: #fe0002;
+    cursor: pointer;
+}
+
+/*===================================
+     sweden flag
+====================================*/
+.sweden {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.swe_main {
+    width: 700px;
+    height: 360px;
+    background-color: #005192;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.swe_bg {
+    position: absolute;
+    width: 700px;
+    height: 100px;
+    background-color: #fec900;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.swe_color {
+    position: absolute;
+    width: 100px;
+    height: 360px;
+    background-color: #fec900;
+    left: 25%;
+    top: 0;
+    transform: translateX(-25%);
+}
+
+.sweden h2 {
+    padding: 10px 20px;
+    background-color: #fec900;
+    display: inline-block;
+    color: #fff;
+    margin: 20px 0;
+    border-radius: 5px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    transition: all 0.3s ease-in;
+}
+
+.sweden h2:hover {
+    background-color: #005192;
+    cursor: pointer;
+}
